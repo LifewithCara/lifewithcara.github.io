@@ -4,35 +4,37 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/base/normalize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script src="main.js"></script>
 </head>
 <body>
-   <header>
-    <nav>
-        <p><a href="">Cara</a></p>
-        <ul>
-            <li><a href="">Lorem</a></li>
-            <li><a href="">Lorem</a></li>
-            <li><a href="">Lorem</a></li>
-            <li><a href="">Lorem</a></li>
-        </ul>
-    </nav>
+   <header id ="home-header" class = "home-header-background-image">
+      <div class = "home-header-container">
+        <nav class = "navigation">
+            <p><a href="" class = "link logo-link">Cara</a></p>
+            <ul class = "navigation-top">
+                <li><a href="" class = "link navigation-top__item">Lorem</a></li>
+                <li><a href="" class = "link navigation-top__item">Lorem</a></li>
+                <li><a href="" class = "link navigation-top__item">Lorem</a></li>
+                <li><a href="" class = "link navigation-top__item">Lorem</a></li>
+            </ul>
+        </nav>
 
-    <div>
-        <h1>Hi! im cara</h1>
-        <p>Are you bored? <span>Welcome to my blog</span></p>
-        <a href="">Explore</a>
-    </div>
+        <div class = "home-header-container__item1">
+            <h1 class = "title">Hi! im cara</h1>
+            <p class = "title__paragraph">Are you bored? <span>Welcome to my blog</span></p>
+            <a href="" class = "link button-link">Explore</a>
+        </div>
+       </div>
    </header>
    
-   <div>
+   <div id = "home-main-section">
     <main>
         <section>
-            <h2>Latest posts</h2>
-            
-            <div>
+            <h2 class="section-heading">Latest posts</h2>
+            <div class="body-container">
+            <div class="body-container__item">
                 <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
                 <img>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos voluptatum molestias? Ullam conse
@@ -41,7 +43,7 @@
                 qui magnam nam, maxime cumque illum, quo ab distinctio laboriosam, porro repellat aliquam architecto.</p> 
             </div>
 
-            <div>
+            <div class="body-container__item">
                 <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
                 <img>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos voluptatum molestias? Ullam conse
@@ -50,7 +52,7 @@
                 qui magnam nam, maxime cumque illum, quo ab distinctio laboriosam, porro repellat aliquam architecto.</p> 
             </div>
 
-            <div>
+            <div class="body-container__item">
                 <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
                 <img>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos voluptatum molestias? Ullam conse
@@ -59,40 +61,44 @@
                 qui magnam nam, maxime cumque illum, quo ab distinctio laboriosam, porro repellat aliquam architecto.</p> 
             </div>
 
-            <div>
+            <div class="body-container__item">
                 <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
                 <img>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos voluptatum molestias? Ullam conse
                 molestias suscipit eligendi quae nihil fugiat pariatur. Nihil rem architecto quia quibusdam sapiente.
                 Accusamus alias temporibus numquam porro assumenda esse iusto ea quod veniam. Adipisci explicabo deserunt, 
                 qui magnam nam, maxime cumque illum, quo ab distinctio laboriosam, porro repellat aliquam architecto.</p> 
+            </div>
             </div>
         </section>
 
         <div>
-            <h3>Dont Miss Out On Latest Posts</h3>
-            <form>
-                <label>First Name:</label>
+            <h3 class="form-heading">Dont Miss Out On Latest Posts</h3>
+            <form class="form">
+                <label class="form-label">First Name:</label>
                 <input type = "text">
 
-                <label>Email:</label>
+                <label class="form-label">Email:</label>
                 <input type = "email">
-                <button>Subscribe</button>
+                <button class="form-button">Subscribe</button>
             </form>
         </div>
     </main>
    </div>
 
-   <footer>
-     <h2>Cara</h2>
-        <nav>
-            <li><a href="">lorem</a></li>
-            <li><a href="">lorem</a></li>
-            <li><a href="">lorem</a></li>
-            <li><a href="">lorem</a></li>
-        </nav>
-     <p>&copy; Kola AKindoju</p>
-     
+   <footer class= "l-home-footer" >
+    <div class = "footer-container "> 
+    <h2>Cara</h2>
+    <nav class = "footer-nav-link">
+        <ul class = "footer-nav-link">
+            <li><a href="" class = "link footer-nav-link__item">lorem</a></li>
+            <li><a href="" class = "link footer-nav-link__item">lorem</a></li>
+            <li><a href="" class = "link footer-nav-link__item">lorem</a></li>
+            <li><a href="" class = "link footer-nav-link__item">lorem</a></li>
+        </ul>
+    </nav>
+    <p>&copy; Kola AKindoju</p>
+    </div>
    </footer>
 </body>
 </html>

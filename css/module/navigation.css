@@ -1,0 +1,15 @@
+.navigation{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navigation-top{
+    display: flex;
+    margin-top: 15px;
+}
+
+.navigation-top__item{
+    margin-left: 10px;
+}

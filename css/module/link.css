@@ -1,0 +1,16 @@
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.button-link{
+    border: 3px solid;
+    padding: 6px 10px;
+    border-color: white;
+    font-size: 20px;
+}
+
+.logo-link{
+    font-size: 30px;
+}

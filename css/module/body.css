@@ -1,0 +1,38 @@
+.section-heading{
+    margin: 0;
+    font-size: 20px;
+}
+
+.body-container{
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.body-container__item{
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 0 10px;
+}
+
+.form-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form-label{
+    margin-top: 20px;
+}
+
+.form-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
