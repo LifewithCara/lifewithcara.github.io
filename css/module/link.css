@@ -7,10 +7,15 @@
 .button-link{
     border: 3px solid;
     padding: 6px 10px;
-    border-color: white;
+    border-color: green;
+    border-radius: 3px;
     font-size: 20px;
 }
 
 .logo-link{
     font-size: 30px;
+}
+
+.button-link--color{
+    background-color: green;
 }
